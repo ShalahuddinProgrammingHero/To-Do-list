@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- style css  -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>To Do App</title>
+  </head>
+  <body>
+    <section class="to-do-list">
+        <div class="container to-do py-5">
+            <div class="row">
+                <div class="row justify-content: center">
+                    <img class="w-25 mx-auto" src="images/logo.png" alt="">
+                </div>
+                <div class="row">
+                    <h3 class="text-center my-4">TO-DO APP</h3>
+                </div>
+                <div class="row bg-white w-75 mx-auto align-items-center py-3 rounded-3">
+                    <div class="col-sm-12 col-md-4">
+                        <h6>Add New Task</h6>
+                    </div>
+                    <div class="col-sm-12 col-md-4 mb-2">
+                        <input type="text" placeholder="Write your task name" class="p-2">
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <button type="button" class="btn btn-success">Add Task</button>
+                    </div>
+                </div>
+                <div class="row my-5 justify-content-center mx-auto">
+                    <div class="col-sm-12 col-md-5 border border-success bg-white py-3 m-3">
+                        <h5 class="text-center">INCOMPLETE TASKS</h5> <hr>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">Task Name</label>
+                        </div> <hr>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">Task Name</label>
+                        </div> <hr>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">Task Name</label>
+                        </div> <hr>
+                    </div>
+                    <div class="col-sm-12 col-md-5 border border-success bg-white py-3 m-3">
+                        <h5 class="text-center">COMPLETED TASKS</h5> <hr>
+                        <div class="d-flex justify-content-between">
+                            <label class="form-check-label" for="flexCheckChecked">Task Name</label>
+                            <button class="btn btn-danger">Delete</button>
+                        </div><hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Script js  -->
+    <script src="script.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+</html>

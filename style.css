@@ -1,0 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.to-do {
+    background-color: #D3EFDF;
+}
